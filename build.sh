@@ -51,7 +51,7 @@ git checkout release-1.25.1
     --with-pcre \
     --with-http_auth_request_module \
     --add-module=./../headers-more-nginx-module     \
-    --add-module=./../ngx_http_auth_pam_module  \
+    --add-module=./../ngx_http_auth_pam_module \
     --add-module=./../nginx-dav-ext-module  
 
 make && make install
